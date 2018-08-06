@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SqlExperiense</string>
+    <string name="buttom_add">Add</string>
+    <string name="buttom_read">Read</string>
+    <string name="buttom_clear">Clear</string>
+    <string name="hint_one">Name</string>
+    <string name="hint_two">Email</string>
+    <string name="hint_id">Id</string>
+    <string name="buttom_update">Update</string>
+    <string name="buttom_delete">Delete</string>
+
+</resources>
