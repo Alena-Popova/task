@@ -13,6 +13,8 @@
         <module>parallel.search</module>
         <module>non.block</module>
         <module>problem.threads</module>
+        <module>wait.notify</module>
+        <module>executor</module>
     </modules>
 
     <dependencies>
