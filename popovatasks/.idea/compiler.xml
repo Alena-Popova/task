@@ -15,6 +15,7 @@
         <module name="problemthreads" />
         <module name="thread" />
         <module name="threads" />
+        <module name="wait.notify" />
         <module name="waitnotify" />
       </profile>
     </annotationProcessing>

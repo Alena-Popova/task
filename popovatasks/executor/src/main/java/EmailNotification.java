@@ -8,8 +8,8 @@ public class EmailNotification extends ExecutorServicePool {
 
     @Override
     void emailTo(User user) {
-        subject = String.format("Notification |%s| to email |%s|", user.getName(), user.getEmail());
-        body = String.format("Add a new event to |%s|", user.getName());
+        subject = String.format("Notification %s to email %s", user.getName(), user.getEmail());
+        body = String.format("Add a new event to %s", user.getName());
         pool.submit(new Runnable() {
             @Override
             public void run() {
