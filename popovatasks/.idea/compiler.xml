@@ -13,6 +13,7 @@
         <module name="parallelsearch" />
         <module name="problem.threads" />
         <module name="problemthreads" />
+        <module name="sqlexperience" />
         <module name="thread" />
         <module name="threads" />
         <module name="wait.notify" />
