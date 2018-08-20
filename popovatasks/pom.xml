@@ -16,6 +16,7 @@
         <module>wait.notify</module>
         <module>executor</module>
         <module>sql.experience</module>
+        <module>thread.safe</module>
     </modules>
 
     <dependencies>

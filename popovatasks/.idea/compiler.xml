@@ -16,6 +16,7 @@
         <module name="sqlexperience" />
         <module name="thread" />
         <module name="threads" />
+        <module name="threadsafe" />
         <module name="wait.notify" />
         <module name="waitnotify" />
       </profile>
