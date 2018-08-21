@@ -17,6 +17,7 @@
         <module>executor</module>
         <module>sql.experience</module>
         <module>thread.safe</module>
+        <module>bomberman</module>
     </modules>
 
     <dependencies>
