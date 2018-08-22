@@ -9,8 +9,8 @@ import java.util.concurrent.locks.ReentrantLock;
 @ToString
 public class Cell extends ReentrantLock{
 
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
     private Figure figure;
 
