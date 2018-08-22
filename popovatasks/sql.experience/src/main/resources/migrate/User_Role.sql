@@ -20,7 +20,8 @@ create table rules_roles (
 	roles_id int references role(id)
 );
 create table item (
-	id serial references client(id) not null primary key
+	id serial not null primary key,
+	client_id int references client(id);
 
 );
 
@@ -78,12 +79,12 @@ insert into category (value) VALUES ('main'),
 insert into state (value) VALUES ('active'),
 ('not active');
 
-insert into item (category_id,state_id) VALUES (1,1),
-(3,1),
-(2,1),
-(1,2),
-(2,1),
-(3,2);
+insert into item (client_id, category_id,state_id) VALUES (1,1,1),
+(2,3,1),
+(3,2,1),
+(4,1,2),
+(5,2,1),
+(6,3,2);
 
 insert into comments (text,item_id) VALUES ('Alex is a doctor',1),
 ('Jon is a',2),
