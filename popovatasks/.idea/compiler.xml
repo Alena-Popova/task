@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bomberman" />
         <module name="executor" />
+        <module name="jdbsexperiense" />
         <module name="non.block" />
         <module name="nonblock" />
         <module name="parallel.search" />

@@ -18,6 +18,7 @@
         <module>sql.experience</module>
         <module>thread.safe</module>
         <module>bomberman</module>
+        <module>jdbs.experiense</module>
     </modules>
 
     <dependencies>
