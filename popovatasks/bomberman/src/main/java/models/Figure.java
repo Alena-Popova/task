@@ -7,6 +7,7 @@ import lombok.Setter;
 import net.jcip.annotations.GuardedBy;
 import net.jcip.annotations.ThreadSafe;
 
+import java.util.Objects;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -25,18 +26,47 @@ public class Figure {
 
     private final String name;
 
-    public Figure(Cell cell, Board board, String name) {
-        this.currentCell = cell;
-        //устаначливаем фигуру
-        this.currentCell.setFigure(this);
-        //блокируем клетку
-        this.currentCell.lock();
+    public Figure(Board board, String name) {
         this.board = board;
         this.name = name;
     }
 
-    public void setCoordinate(Cell cell) {
-        this.currentCell = cell;
+    public Cell getCurrentCell() {
+        return currentCell;
     }
 
+
+    public Board getBoard() {
+        return board;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setCurrentCell(Cell currentCell) {
+        this.currentCell = currentCell;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Figure figure = (Figure) o;
+        return Objects.equals(board, figure.board) &&
+                Objects.equals(name, figure.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(board, name);
+    }
+
+    @Override
+    public String toString() {
+        return name + " {"
+                + currentCell.toString() +
+                ", on board=" + board +
+                '}';
+    }
 }

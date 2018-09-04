@@ -2,6 +2,7 @@ package models;
 
 import lombok.Data;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
@@ -18,10 +19,6 @@ public class Board {
      */
     private final int borderY;
     /**
-     * игрок
-     */
-    private final User user;
-    /**
      * само поле
      */
     private final Cell[][] cells;
@@ -31,34 +28,23 @@ public class Board {
         this.borderY = borderY;
         cells = new Cell[borderX][borderY];
         init();
-        user = new User(new Cell(0,0), this, "Bomberman");
     }
 
     /**
      * Инициализируем массив
      */
-    public void init () {
+    public void init() {
         for (int i = 0; i < borderX; i++) {
             for (int j = 0; j < borderY; j++) {
-                this.cells[i][j] = new Cell(i,j);
+                this.cells[i][j] = new Cell(i, j);
             }
         }
-    }
-
-    /**
-     * Start game.
-     * @throws InterruptedException
-     */
-    public void start() throws InterruptedException {
-        Thread game = new Thread(user);	//Создание потока "myThready"
-        game.start();
-        System.out.println("start");
-        Thread.sleep(10000);
     }
 
 
     /**
      * поверяем точку : входит ли она в границы доски
+     *
      * @param x
      * @param y
      * @return true если входит
@@ -72,21 +58,19 @@ public class Board {
 
     /**
      * движение по доске с source в dest
+     *
      * @param source
      * @param dest
      * @return
      * @throws InterruptedException
      */
-    public boolean move(Cell source, Cell dest) throws InterruptedException{
+    public boolean move(Cell source, Cell dest) throws InterruptedException {
         boolean result = false;
-        if (dest.tryLock(500L, TimeUnit.MILLISECONDS) && !source.isEmpty()) {
-            if (source.isHeldByCurrentThread()) {
-                source.unlock();
-                System.out.println("unlock");
+        if (cells[dest.getX()][dest.getY()].tryLock(500L, TimeUnit.MILLISECONDS)) {
+            if (cells[source.getX()][source.getY()].isHeldByCurrentThread()) {
+                cells[source.getX()][source.getY()].unlock();
+                cells[dest.getX()][dest.getY()].lock();
             }
-            source.ridCell().setCoordinate(dest);
-            dest.setFigure(user);
-            System.out.println(String.format("move to %s", dest.toString()));
             result = true;
         }
         return result;
@@ -94,22 +78,33 @@ public class Board {
 
     /**
      * выбирается рандомное направление движение диапазоном в одну клетку
+     *
      * @param source
      * @return
      */
-    public Cell  randomMove(Cell source) {
+    public Cell randomMove(Cell source) throws InterruptedException {
         int random[] = {-1, 0, 1};
-        int x = random[ new Random().nextInt(3)];
-        int y = random[ new Random().nextInt(3)];
+        int x = random[new Random().nextInt(3)];
+        int y = random[new Random().nextInt(3)];
 
         while (!chechBorders(source.getX() + x, source.getY() + y)
-                || !cells[source.getX() + x][source.getY() + y].isEmpty()) {
-            x = random[ new Random().nextInt(3)];
-            y = random[ new Random().nextInt(3)];
+                || !cells[source.getX() + x][source.getY() + y].tryLock(500L, TimeUnit.MILLISECONDS)) {
+            x = random[new Random().nextInt(3)];
+            y = random[new Random().nextInt(3)];
         }
 
         return cells[source.getX() + x][source.getY() + y];
 
     }
 
+    public Cell getStartRandomPosition() {
+        int x = (int)(Math.random() * this.borderX);
+        int y = (int)(Math.random() * this.borderY);
+        return cells[x][y];
+    }
+
+    @Override
+    public String toString() {
+        return Board.class.getName();
+    }
 }
