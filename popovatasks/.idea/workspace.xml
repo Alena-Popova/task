@@ -3,18 +3,26 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="chapter__0008:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="82718c14-b82d-48e2-96b5-731d4f2f1f95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bomberman/src/main/java/models/LoggerProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbs.experiense/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbs.experiense/src/main/java/SQLStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/EchoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/logic/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/logic/ValidateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/persistent/ConnectDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/persistent/MemoryStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/java/servlets/UserServlets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/resources/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter__0008/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberman/src/main/java/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberman/src/main/java/models/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberman/src/main/java/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberman/src/main/java/models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberman/src/main/java/models/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberman/src/main/java/models/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberman/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberman/src/main/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberman/src/test/java/models/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberman/src/test/java/models/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,6 +37,8 @@
     <ignored path="$PROJECT_DIR$/thread.safe/target/" />
     <ignored path="$PROJECT_DIR$/bomberman/target/" />
     <ignored path="$PROJECT_DIR$/jdbs.experiense/target/" />
+    <ignored path="$PROJECT_DIR$/chapter__0008/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +79,7 @@
     <session id="-907118401">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.121" value="1" />
@@ -83,43 +93,49 @@
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="426" />
+          <entry key="JAVA" value="527" />
+          <entry key="Properties" value="13" />
           <entry key="SQL" value="13" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="10" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="4417" />
+          <entry key="java" value="5057" />
+          <entry key="properties" value="15" />
           <entry key="sql" value="148" />
-          <entry key="xml" value="20" />
+          <entry key="txt" value="16" />
+          <entry key="xml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4417" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SQL" value="148" />
-          <entry key="XML" value="20" />
+          <entry key="JAVA" value="5056" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Properties" value="15" />
+          <entry key="SQL" value="149" />
+          <entry key="XML" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="426" />
+          <entry key="java" value="527" />
+          <entry key="properties" value="13" />
           <entry key="sql" value="14" />
           <entry key="uml" value="1" />
-          <entry key="xml" value="10" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -127,14 +143,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bomberman/src/main/java/models/User.java">
+        <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/persistent/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -159,18 +171,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response17.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/threads/src/main/java/task/third/Count.java" />
-        <option value="$PROJECT_DIR$/threads/src/main/java/task/third/User.java" />
-        <option value="$PROJECT_DIR$/threads/src/main/java/task/third/UserStorage.java" />
-        <option value="$PROJECT_DIR$/parallel.search/pom.xml" />
-        <option value="$PROJECT_DIR$/parallel.search/src/main/java/SearchEngineText.java" />
-        <option value="$PROJECT_DIR$/parallel.search/src/main/java/Search.java" />
-        <option value="$PROJECT_DIR$/parallel.search/src/test/java/ParallelSearchTest.java" />
-        <option value="$PROJECT_DIR$/parallel.search/src/main/java/ParallelSearch.java" />
-        <option value="$PROJECT_DIR$/non.block/pom.xml" />
         <option value="$PROJECT_DIR$/non.block/src/main/java/OptimisticException.java" />
         <option value="$PROJECT_DIR$/non.block/src/main/java/Cache.java" />
         <option value="$PROJECT_DIR$/non.block/src/main/java/NonBlockCache.java" />
@@ -213,6 +219,15 @@
         <option value="$PROJECT_DIR$/bomberman/src/test/java/models/BoardTest.java" />
         <option value="$PROJECT_DIR$/bomberman/src/main/java/models/Cell.java" />
         <option value="$PROJECT_DIR$/bomberman/src/main/java/models/User.java" />
+        <option value="$PROJECT_DIR$/chapter__0008/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/app.properties" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/java/logic/User.java" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/java/EchoServlet.java" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/java/persistent/ConnectDB.java" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/java/servlets/UserServlets.java" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/java/logic/Store.java" />
+        <option value="$PROJECT_DIR$/chapter__0008/src/main/java/logic/ValidateService.java" />
       </list>
     </option>
   </component>
@@ -221,6 +236,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -234,16 +256,16 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="chapter__0008" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="chapter__0008" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="chapter__0008" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
@@ -262,7 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -274,95 +295,60 @@
             <path>
               <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbs.experiense" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbs.experiense" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="sql.experience" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="sql.experience" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="sql.experience" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="sql.experience" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="persistent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -370,34 +356,61 @@
             <path>
               <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
-              <item name="sql.experience" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter__0008" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="thread.safe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="thread.safe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="popovatasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="popovatasks" type="462c0819:PsiDirectoryNode" />
+              <item name="thread.safe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536065610960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536152878699" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.34712642" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -405,9 +418,103 @@
       <recent name="" />
       <recent name="task.third" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\job4j\task\popovatasks\chapter__0008\src\main\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\job4j\task\popovatasks\chapter__0008\src\main\java" />
+      <recent name="D:\job4j\task\popovatasks\chapter__0008\src\main\webapp\WEB-INF" />
+      <recent name="D:\job4j\task\popovatasks\chapter__0008\src\main" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/items/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="Alex" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="login" />
+                <option name="value" value="alex2000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="a@gmail.tu" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/items/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resourses" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -421,7 +528,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BoardTest.init">
+  <component name="RunManager" selected="Tomcat Server.job-java">
     <configuration name="SQLStorage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SQLStorage" />
       <module name="jdbsexperiense" />
@@ -498,12 +605,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="job-java" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.15" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/items/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter__0008:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/items" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_popovatasks" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58576" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter__0008:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Tomcat Server.job-java" />
+      <item itemvalue="Application.SQLStorage" />
       <item itemvalue="JUnit.NewThreadTest.testChangeActive" />
       <item itemvalue="JUnit.DinamicListTest" />
       <item itemvalue="JUnit.DinamicListTest.testTreads" />
       <item itemvalue="JUnit.BoardTest.init" />
-      <item itemvalue="Application.SQLStorage" />
     </list>
     <recent_temporary>
       <list>
@@ -545,7 +726,8 @@
       <workItem from="1534843935155" duration="14550000" />
       <workItem from="1534917046658" duration="11719000" />
       <workItem from="1534937856908" duration="1957000" />
-      <workItem from="1536057666430" duration="7079000" />
+      <workItem from="1536057666430" duration="10151000" />
+      <workItem from="1536137810418" duration="12601000" />
     </task>
     <servers />
   </component>
@@ -582,32 +764,44 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101758000" />
+    <option name="totallyTimeSpent" value="117431000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26375404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26779935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" visible="true" weight="0.35063437" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.2768166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.2768166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.2768166" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32871974" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32911393" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3298731" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -626,79 +820,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parallel.search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/non.block/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/non.block/src/main/java/OptimisticException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/non.block/src/main/java/NonBlockCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/non.block/src/main/java/Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/non.block/src/main/java/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/ExpectException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="843" selection-start-line="843" selection-end-line="843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/non.block/src/test/java/NonBlockCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem.threads/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem.threads/src/main/java/synh/Synch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problem.threads/src/main/java/synh/Caller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -838,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread.safe/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bomberman/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -912,9 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,12 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,10 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding>
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,12 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,10 +1075,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread.safe/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/logic/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/persistent/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/EchoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/servlets/UserServlets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/logic/ValidateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/persistent/MemoryStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter__0008/src/main/java/persistent/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -993,7 +1180,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>threads</last-edited>
+          <last-edited>chapter__0008:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1006,7 +1193,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web (chapter__0008)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

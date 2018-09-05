@@ -19,6 +19,7 @@
         <module>thread.safe</module>
         <module>bomberman</module>
         <module>jdbs.experiense</module>
+        <module>chapter__0008</module>
     </modules>
 
     <dependencies>
